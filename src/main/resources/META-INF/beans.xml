@@ -3,4 +3,13 @@
        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
                            http://java.sun.com/xml/ns/javaee/beans_1_0.xsd">
  
-</beans> 
+<alternatives> 
+	<class>treinamentocdi.exemplo.EspTesteInjecaoImpl</class>
+</alternatives> 
+<interceptors>
+     <class>treinamentocdi.exemplo.TesteInterceptadorImpl</class>
+</interceptors>
+<decorators>
+       <class>treinamentocdi.exemplo.DecorarEspTesteInjecaoImpl</class>
+</decorators>
+</beans> 	
